@@ -11,7 +11,7 @@ int main(){
   double dt = 0.01;
   double t;
   double dx = 0.01;
-  int ns = 2.0/(dx) + 1;
+  int ns = 1.0/(dx);
   double To[ns];
   double Tn[ns];
   int i;
