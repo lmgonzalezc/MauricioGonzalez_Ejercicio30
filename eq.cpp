@@ -18,7 +18,7 @@ int main(){
   ofstream outfile;
 
   for(i=0;i<ns;i++){
-    To[i] = 0.05*sin(4*M_PI*i);     
+    To[i] = 0.05*sin(4*M_PI*i*dx);     
   }
   Tn[0] = 0.0;
   Tn[ns-1] = 0.0;
